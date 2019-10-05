@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "Godspeak-firefox",
+  "version": "0.0.0.1",
+  
+  
+  "description": "Firefox extension of Godspeak-Generator project",
+  
+
+  "permissions": [
+    "activeTab"
+  ],
+
+
+  
+
+  "browser_action": {
+    "default_title": "Godspeak",
+    "default_popup": "button.html"
+  }
+
+
+}

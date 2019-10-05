@@ -1,0 +1,113 @@
+
+
+h2.elegant {
+  font-family: 'Vesper Libre', serif;
+  font-style: italic;
+  text-decoration-skip-ink: auto;
+  text-decoration: underline;
+  font-size: 2em;
+  color: #9A0000;
+}
+
+.btn {
+	color: transparent;
+	display: block;
+      height: 48px;
+      width: 48px;
+      border-radius: 50%;
+      border: none;
+  font-family: 'Raleway', sans-serif;
+  background: url("icon48.png") no-repeat;
+  
+}
+
+
+
+
+.btn:hover{
+	font-family: 'Kalam', cursive;
+	color: white;
+	background: #9A0000;
+	cursor: pointer;
+	transition: 1s;
+}
+
+button:focus {outline:0;}
+
+p {
+
+	width: 300px;
+	height: 285px;
+
+  animation-duration: 3.5s;
+  animation-name: fadein;
+  font-family: 'Kalam', cursive;
+  font-size: 1.3em;
+  color: #9A0000;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+body {
+  background-color: #F6F455; /* background color */
+  width: 300px;
+  height: 175px;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+   animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*
+
+Credits for this project go to:
+Marko Žlender, github: https://github.com/ssucifer
+Josh Simmons, Josh Simmons github project: https://github.com/jcpsimmons/Godspeak-Generator , github:https://github.com/jcpsimmons
+Terrence Andrew Davis
+
+*/
